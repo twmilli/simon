@@ -30,6 +30,27 @@ body{
   left: 0;
   right: 0;
   margin: auto;
+  padding: 3rem;
+}
+
+.start{
+  display: inline-block;
+  width: 25px !important;
+  height: 25px !important;
+  border: 3px solid black !important;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.count div{
+  font-size: 2em;
+  display: inline-block;
+  width: 7rem;
+  height: 4rem;
+  border: 2px solid black;
+  background-color: #380b0b;
+  color: #b31d1d;
+  border-radius: 10%;
 }
 
 .game button{
@@ -61,4 +82,59 @@ body{
 #blue-btn{
   background-color: #362fcc;
   border-radius: 0 0 100% 0;
+}
+
+.switch{
+  display: inline-block;
+  position: relative;
+}
+
+.switch label{
+  width: 55px;
+  height: 22px;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.switch input[type="checkbox"]{
+  display: none;
+}
+
+.switch label:after{
+  content: '';
+  width: 20px;
+  height: 20px;
+  background-color: blue;
+  position: absolute;
+  transition: all 0.2s;
+  left: 1px;
+  top: 1px;
+}
+
+.switch input[type="checkbox"]:checked + label:after{
+  left: 33px;
+}
+
+.strict{
+  display: inline-block;
+  position: relative;
+  margin-top: 10px;
+}
+
+.strict label{
+  width: 25px;
+  height: 25px;
+  border: 3px solid gray;
+  border-radius: 50%;
+  background-color: yellow;
+}
+
+.strict input[type="checkbox"]{
+  display: none;
+}
+
+.strict input[type="checkbox"]:checked{
+  background-color: green;
 }
