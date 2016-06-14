@@ -17,25 +17,50 @@
           Simon&reg;
         </h1>
         <div class="count">
-          <div>
+          <div id="count">
           _ _
           </div>
         </div>
-        <button class="start"></button>
+        <div class="start">
+          <button class="start"></button>
+          <br>Start
+        </div>
 
         <div class="strict">
           <input type="checkbox" id="strict">
           <label for="strict"></label>
+          <br>Strict
         </div>
         <div class="switch">
           <input type="checkbox" id="switch" >
           <label for="switch"></label>
+          <br>Off &emsp; On
         </div>
       </div>
-      <button id="green-btn"></button>
-      <button id="red-btn"></button>
-      <button id="yellow-btn"></button>
-      <button id="blue-btn"></button>
+      <button id="green-btn" onclick="onButtonClick(this)" disabled="true">
+        <audio>
+          <source src="assets/greenSound.mp3" type="audio/mpeg"/>
+        </audio>
+      </button>
+      <button id="red-btn" onclick="onButtonClick(this)" disabled="true">
+        <audio>
+          <source src="assets/redSound.mp3" type="audio/mpeg"/>
+        </audio>
+      </button>
+      <button id="yellow-btn" onclick="onButtonClick(this)" disabled="true">
+        <audio>
+          <source src="assets/yellowSound.mp3" type="audio/mpeg"/>
+        </audio>
+      </button>
+      <button id="blue-btn" onclick="onButtonClick(this)" disabled="true">
+        <audio>
+          <source src="assets/blueSound.mp3" type="audio/mpeg"/>
+        </audio>
+      </button>
+    </div>
+    <div class="info">
+      <span id="score">Score:</span><br>
+      <span id="high">High Score: </span>
     </div>
   </div>
 </body>
