@@ -9,6 +9,7 @@
     </script>
     <link rel="stylesheet" href="css/main.css" charset="utf-8">
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 <body>
   <div class="fluid-container">
@@ -60,8 +61,27 @@
       </button>
     </div>
     <div class="info">
-      <span id="score">Score:</span><br>
-      <span id="high">High Score: </span>
+      <span id="score">Score: 0</span><br>
+      <span>High Score: </span>
+      <span id="high">0</span>
+    </div>
+  </div>
+
+  <div class="modal fade" id="replayModal">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h4 class="modal-title">
+          Would you like to play again?
+        </h4>
+      </div>
+      <div class="modal-body">
+        <button class="close" data-dismiss = "modal" id="No">
+          No
+        </button>
+        <button class="close" data-dismiss = "modal" id="Yes"> 
+          Yes
+        </button>
+      </div>
     </div>
   </div>
 </body>

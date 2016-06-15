@@ -39,7 +39,6 @@ body{
 }
 
 .start button{
-  padding: 0;
   width: 25px !important;
   height: 25px !important;
   border: 3px solid black !important;
@@ -181,4 +180,27 @@ body{
   position: absolute;
   bottom: 2rem;
   right: 25%;
+}
+
+.modal-content{
+  height: 20rem;
+  width: 40rem;
+  text-align: center;
+  margin: auto;
+}
+
+.modal-body{
+  margin: auto;
+}
+
+.modal-body button{
+  width: 50%;
+  height: 10rem;
+}
+
+.modal-body button#Yes{
+  background-color: rgb(65, 191, 119);
+}
+.modal-body button#No{
+  background-color: #c23434;
 }
