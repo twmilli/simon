@@ -77,7 +77,7 @@ body{
   border-radius: 100% 0 0 0;
 }
 
-#green-btn:active{
+#green-btn:active, #green-btn.active{
   background-color: #3aed4c;
 }
 
@@ -86,7 +86,7 @@ body{
   border-radius: 0 100% 0 0;
 }
 
-#red-btn:active{
+#red-btn:active, #red-btn.active{
   background-color: rgb(255, 75, 75);
 }
 
@@ -95,7 +95,7 @@ body{
   border-radius: 0 0 0 100%;
 }
 
-#yellow-btn:active{
+#yellow-btn:active, #yellow-btn.active{
   background-color: rgb(250, 231, 65);
 }
 
@@ -104,7 +104,7 @@ body{
   border-radius: 0 0 100% 0;
 }
 
-#blue-btn:active{
+#blue-btn:active, #blue-btn.active{
   background-color: #3f37eb;
   border-radius: 0 0 100% 0;
 }

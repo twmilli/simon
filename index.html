@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Simon Arcade Game</title>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
     <script type="text/javascript" src="js/main.js">
     </script>
     <link rel="stylesheet" href="css/main.css" charset="utf-8">
@@ -22,7 +23,7 @@
           </div>
         </div>
         <div class="start">
-          <button class="start"></button>
+          <button class="start" id="start" disabled="true"></button>
           <br>Start
         </div>
 
@@ -37,22 +38,22 @@
           <br>Off &emsp; On
         </div>
       </div>
-      <button id="green-btn" onclick="onButtonClick(this)" disabled="true">
+      <button id="green-btn"  disabled="true">
         <audio>
           <source src="assets/greenSound.mp3" type="audio/mpeg"/>
         </audio>
       </button>
-      <button id="red-btn" onclick="onButtonClick(this)" disabled="true">
+      <button id="red-btn" disabled="true">
         <audio>
           <source src="assets/redSound.mp3" type="audio/mpeg"/>
         </audio>
       </button>
-      <button id="yellow-btn" onclick="onButtonClick(this)" disabled="true">
+      <button id="yellow-btn" disabled="true">
         <audio>
           <source src="assets/yellowSound.mp3" type="audio/mpeg"/>
         </audio>
       </button>
-      <button id="blue-btn" onclick="onButtonClick(this)" disabled="true">
+      <button id="blue-btn" disabled="true">
         <audio>
           <source src="assets/blueSound.mp3" type="audio/mpeg"/>
         </audio>
