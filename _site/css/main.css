@@ -1,10 +1,16 @@
+@font-face {
+  font-family: "arcade";
+  src:url("../assets/ARCADE.TTF");
+}
 
 body{
   background-image: url("../assets/sand.jpeg");
   text-align: center;
+  font-family: 'Arbutus Slab', serif;
 }
 
 .game{
+  font-family: 'Arbutus Slab', serif;
   position: absolute;
   top:0;
   bottom: 0;
@@ -49,10 +55,12 @@ body{
 
 
 .count div{
-  font-size: 2em;
+  padding: 0;
+  font-family: "arcade";
+  font-size: 2.5em;
   display: inline-block;
   width: 7rem;
-  height: 4rem;
+  height: 4.5rem;
   border: 2px solid black;
   background-color: #380b0b;
   border-radius: 10%;
@@ -175,14 +183,16 @@ body{
 }
 
 .info{
+  font-family: 'Arbutus Slab', serif;
   font-size: 24px;
   text-align: left;
   position: absolute;
   bottom: 2rem;
-  right: 25%;
+  right: 10%;
 }
 
 .modal-content{
+  font-family: 'Arbutus Slab', serif;
   height: 20rem;
   width: 40rem;
   text-align: center;
@@ -203,4 +213,13 @@ body{
 }
 .modal-body button#No{
   background-color: #c23434;
+}
+
+.footer{
+  font-family: 'Arbutus Slab', serif;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
