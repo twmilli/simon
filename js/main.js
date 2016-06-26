@@ -80,6 +80,7 @@ GameManager.prototype.checkInput = function(btn_index){
       onLoss(this);
     }
     else{
+      disableAll();
       this.playPattern();
       this.playerIndex = 0;
       this.updateFromModel();
