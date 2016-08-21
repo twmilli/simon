@@ -67,7 +67,7 @@
       <span id="high">0</span>
     </div>
   </div>
-
+  <button class='btn' data-toggle='modal' data-target='#directions' id='direction-btn'>Directions</button>
   <div class="modal fade" id="replayModal">
     <div class="modal-dialog">
       <div class="modal-header">
@@ -85,6 +85,27 @@
       </div>
     </div>
   </div>
+
+  <div class="modal fade" id='directions'>
+    <div class="modal-dialog" role="document">
+      <div class="modal-content" id='direction-content'>
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h4 class="modal-title">How To Play Simon</h4>
+        </div>
+        <div class="modal-body" id='direction-body'>
+          <p>Click the buttons to mimic the pattern shown on your computer. <br>
+          If you successfully reach a score of 20, you win! <br>
+          Strict mode: if you make one mistake, your score will automatically reset to 0.</p>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary" data-dismiss = "modal" type="button">Done</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
   <br><br>
   <div class="footer">
     Coded by Taylor Milliman

@@ -237,3 +237,25 @@ body{
   right: 0;
   margin: auto;
 }
+
+#direction-btn{
+  font-size: 18px;
+  text-align: left;
+  position: absolute;
+  top: 30%;
+  right: 15%;
+  outline: none;
+  border: none;
+}
+
+#direction-body{
+  text-align: left;
+}
+
+#direction-content{
+  font-family: 'Arbutus Slab', serif;
+  font-size: 18px;
+  height: 25rem;
+  width: 80rem;
+  margin: auto;
+}
